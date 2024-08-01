@@ -1,0 +1,52 @@
+
+
+    /* .pagination{
+        display: grid;
+        justify-content: center
+    } */
+    .pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: 1px solid #156927;
+    border-radius: 3px;
+    color: #13892D;
+    text-decoration: none;
+    background-color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.pagination a:hover {
+    background-color: #13892D;
+    color: #ffff;
+}
+
+.pagination span.active {
+    background-color: #13892D;
+    color: #fff;
+    position: relative;
+    bottom: 8px;
+
+    border-color: #156927;
+
+}
+
+.pagination span.disabled,
+.pagination a.disabled {
+    pointer-events: none;
+    color: #bbb;
+    background-color: #13892D;
+    /* background-color: #13892D; */
+
+    border-color: #156927;
+}
+.pagination{
+    display: flex;
+    justify-content: center
+}
+/* .voirplus,precedent{
+    width: 300px;
+    font-weight: 700;
+    font-size: 19px;
+} */

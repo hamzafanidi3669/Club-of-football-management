@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  .img1{
+    display: none;
+  }
+  .product-image{
+    width: 100%;
+  }
+  .product-image-container{
+    width: 300px;
+
+  }
+  .contentproduit{
+    display: grid;
+    justify-content: center;
+  }
+  .allphotosproduit{
+    display: grid;
+    justify-content: center;
+  }
+  .couleurlink{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px
+  }
+  .alltextproduit{
+    font-family: 'Bebas Neue', sans-serif;
+
+  }
+  .designationproduit{
+    font-size: 37px;
+  }
+  .alltextproduit{
+    /* line-height: 89px; */
+  }
+  .selectproduit{
+    width: 300px;
+    height: 40px;
+    font-size: 19px;
+    border: 1px solid #13892D;
+    background: none;
+  }
+  .selectproduit:focus{
+    border: 2px solid #13892D;
+
+  }
+  .mesuresproduit{
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+  }
+  .mesuresproduit:hover{
+    color: #13892D;
+  }
+  .btnproduitpanier{
+    width: 300px;
+    background-color: #13892D;
+    height: 40px;
+    
+
+  }
+  .descriptionproduit{
+    font-size: 13px;
+    max-width: 370px;
+  }
+ 

@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.registerbody{
+background: #13892D;
+}
+
+.registercontent{
+background-color: #ffffff;
+margin: 20px;
+position: relative;
+bottom: 70px;
+} 
+
+
+
+
+.registerwhykamla1{
+background-color: rgb(249, 249, 249);
+
+}
+
+ .registerwhykamla{
+  display: grid;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto; 
+  background-color: rgb(249, 249, 249);
+   font-size: 14px;
+  color: rgb(99, 99, 99); 
+  padding-top: 70px;
+/* margin-left: 200px; */
+position: relative;
+left: 425px;
+
+}
+.registerli{
+  list-style: none;
+}
+.registertitrecentral{
+  color: #13892D;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif; 
+  /* khasha tgaadd!!! */
+
+}
+
+.whytrophees{
+  display: grid;
+  justify-content: center;
+}
+
+.registera{
+  color: #13892D;
+  text-decoration: underline;
+  font-style:italic ;
+}
+.registera:hover{
+  color:#13892D;
+
+} 
+.registerwhykamla1{
+  background-color: rgb(249, 249, 249);
+  height: 488px;
+  
+  
+}
+
+.registeralready1{
+  font-weight: 700;
+}
+.registerform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.registerinput-field{
+  position: relative;
+}
+.registerinput-field input{
+   width: 270px;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 1px solid #c8c8c8;
+  background: transparent;
+  color: #000000;
+  outline: none;
+}
+
+.registerinput-field label{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+input:focus{
+  border: 1px solid #13892D;
+}
+input:focus ~ label,
+input:valid ~ label{
+  top: 0;
+  left: 15px;
+  font-size: 11px;
+  padding: 0 2px;
+  background: #ffffff;
+}
+
+.registerconseilpasswords{
+  line-height: 3px;
+  font-size: 11px;
+  background: rgb(245, 245, 245);
+  padding: 24px 20px ;
+}
+.registertitreh4{
+  font-weight: 720;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.registerbtn{
+background: none;
+border: 2px solid #13892D;
+font-family: "montserrat",sans-serif;
+padding: 10px;
+min-width: 250px;
+transition: color 0.4s linear;
+position: relative;
+}
+.registerbtn:hover{
+color: #13892D;
+}
+.registerbtn::before{
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: #000000;
+z-index: -1;
+transition: transform 0.5s;
+transform-origin:0 0 ;
+transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.registerbtn::before{
+transform: scaleX(0);
+}
+.registerbtn:hover::before{
+transform: scaleX(1);
+
+}
+.registerbtndiv{
+display: grid;
+justify-content: center;
+line-height: 34px;
+}
+.registerAlready2{
+font-size: 12px;
+display: grid;
+justify-content: center;
+}
+
+/* .registercontent{
+  position: relative;
+  bottom: 70px;
+} */

@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.navrcalogo{
+    width: 70px;
+    height: 90px;
+    
+}
+
+ul{
+    display: grid;
+    justify-content: space-around;
+
+    
+}
+.nava{
+    /* color: aliceblue; */
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -1px;
+  
+
+}
+nav a{
+    font-family: "Roboto Condensed", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+
+}
+/* .navbar .navbar-nav > li.active > a {
+    color: red;
+} */
+
+
+.nava:hover{
+    color: #094215;
+    transition: 0.3s;
+}
+.navbar-brand{
+    display: grid;
+    justify-content: center;
+}
+
+hr{
+    height: 7px;
+    width: 30px;
+}
+.navhr1{
+    border-right: 1px solid rgb(167, 167, 167) ;
+    height: 16px;
+
+}
+.navhr2{
+    border-left:1px solid rgb(167, 167, 167);
+    height: 16px;
+    display: grid;
+    justify-content: center;
+
+}
+.navlogo1xbet{
+    width: 70px;
+    height: 25px;
+}
+.navnav{
+    background-color: #13892D;
+    /* color: white; */
+}
+.nava{
+    /* color: white; */
+}
+.nava{
+    /* color: #094215;
+    transition: 0.3s; */
+}
+.navloginss{
+    display: flex;
+    justify-content: center;
+ 
+}
+.navuser{
+    margin-bottom: 5px;
+}
+
+.navjoinlink,.navloginlink{
+    font-weight: 500;
+}
+
+#ch{
+    display: none;
+}
+
+
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.nav-bar2{
+    display: none;
+}
+
+
+.navloginss2{
+    display: none;
+}
+
+.navul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    nav #icon{
+        display: block;
+    }
+ 
+    .nav-bar2{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #13892D;
+        transition: 0.2s;
+        height: 0px;
+        overflow: hidden;
+
+    }
+    .nav-bar2{
+        display: block;
+        margin:  auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .nav-bar2.active{
+        height: 250px;
+    }
+    .navul{
+        text-decoration: none;
+        line-height: 50px;
+        opacity: 0;        
+
+
+    }
+    .nav-bar2.active ul{
+        opacity: 1;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+    .navloginss2{
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .navrcalogo{
+        margin-left:20px ;
+    }
+    .navloginlink{
+        position: relative;
+        top: 1px;
+    }
+    .navjoin{
+        border-right:1px #b4b4b4 solid ;
+
+    }
+}
+.navnav{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+.navlogowidth{
+    /* fscript ander on scroll dkhul lya ldak logo dyal raja wzid had la classe */
+    display: none;
+    transition: 0.5s;
+
+}
+.navrca{
+    /* font-size: 45px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    color: white; */
+    display: none;
+    transition: 0.5s;
+}
+.navrca2{
+    display: block;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+/* 3la 9bl active */
+.nava{
+    color: white;
+}
+.active a{
+    /* color: red; */
+    color: #094215;
+    /* background: #000; */
+}

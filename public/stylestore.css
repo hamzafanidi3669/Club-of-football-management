@@ -1,0 +1,26 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.welcometitre1{
+    width: 340px;
+    height: 30px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.atestproduit{
+    height: 20px;
+}
+/* .atest{
+    display: inline-block;
+} */
+.fa-plus-circle{
+    font-size: 20px;
+
+}
+.fa-plus-circle:hover{
+    font-size: 25px;
+    transition: 0.3s;
+    
+}
+.prixproduit{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+}
